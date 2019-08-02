@@ -16,7 +16,7 @@ public class Reader {
         try {
             reader = new InputStreamReader(new FileInputStream(path));
         } catch (FileNotFoundException e) {
-            System.out.println("Incorrect file path!");
+            System.out.println("Can not find file in " + path + "!");
         }
     }
 
