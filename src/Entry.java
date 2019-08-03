@@ -14,8 +14,8 @@ public class Entry {
      */
     public static void main(String[] args) {
 
-        Anagram small = new Anagram("Dictionary/tinyDictionary.txt");;      // small dictionary
-        Anagram large = new Anagram("Dictionary/Dictionary.txt");;      // large dictionary
+        Anagram small = new Anagram("Dictionary/tinyDictionary.txt");      // small dictionary
+        Anagram large = new Anagram("Dictionary/Dictionary.txt");      // large dictionary
 
         if (args.length > 0) {
 
