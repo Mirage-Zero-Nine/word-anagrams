@@ -7,6 +7,6 @@
 
 ## How to run
 1. Clone `https://github.com/yyzhou95/word-anagrams.git` to local machine.
-2. Open a Terminal Window under code folder, and run `chmod u+x runme.sh` to make `.sh` file executable.
+2. Open a Terminal Window under code folder, and run `chmod u+x runme.sh` to make it executable.
 3. Run `./runme.sh` to run the test cases.
-4. If you want to test custom test case, modify the test file in `src/Test` or directly input in terminal are both OK.
+4. If you want to try customized test case, modify the test file in `src/Test` or directly input in terminal are both OK.
