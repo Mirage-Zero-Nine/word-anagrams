@@ -1,4 +1,9 @@
+import java.util.Arrays;
+
 /**
+ * Generate key of each word based on char appearance in each word.
+ * The key is the combination of each char appearance count.
+ *
  * @author Yueyang Zhou
  * Time: 2019/08/02 09:40
  * Created with IntelliJ IDEA
@@ -33,7 +38,7 @@ class GenerateKey {
         /* Convert letters and appearance into string */
         for (int i = 0; i < numOfAlpha; i++) {
             if (lower[i] != 0) {
-                result.append((char) i + 'a');      // char
+                result.append(Character.toChars(i + 'a'));      // char
                 result.append(lower[i]);                // count of appearance
             }
         }
