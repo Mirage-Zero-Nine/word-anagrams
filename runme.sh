@@ -8,11 +8,10 @@ cd src
 echo "Running test case in src/Test"
 # add custom char set here with space
 java Entry
-java Entry edmo AaiLs OALle oplle
 
 while true; do
   echo " "
-  echo "Please input char set here: "
+  echo "Please input char set here as custom test case: "
   read -r var
   java Entry "$var"
 done
