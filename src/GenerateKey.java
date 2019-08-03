@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Generate key of each word based on char appearance in each word.
  * The key is the combination of each char appearance count.

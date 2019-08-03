@@ -1,6 +1,8 @@
 import java.util.*;
 
 /**
+ * Get dictionary map by given dictionary file path and return the anagrams by given words.
+ *
  * @author Yueyang Zhou
  * Time: 2019/08/01 16:45
  * Created with IntelliJ IDEA
@@ -12,14 +14,12 @@ public class Anagram {
     private HashSet<String> testSet;
 
     /**
-     * Create an anagram dictionary from the list of words given in the file
-     * indicated by fileName.
-     * PRE: The strings in the file are unique.
+     * Obtain dictionary from given dictionary path.
      *
-     * @param dictPath the name of the file to read from
+     * @param dictionary the name of the file to read from
      */
-    public Anagram(String dictPath) {
-        dictionaryMap = new DictionaryMap(dictPath).getMap();
+    public Anagram(String dictionary) {
+        dictionaryMap = new DictionaryMap(dictionary).getMap();
     }
 
     /**
