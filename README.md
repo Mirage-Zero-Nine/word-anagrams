@@ -1,8 +1,8 @@
 # Word Anagram
 
 ## Function
-1. Find all the possible English words from the dictionary that could be composed of input characters (same length).
-2. Run with test case. You can custom the test case by modify test file in `src/Test` or directly input test case in terminal after running it.
+1. Find all the possible English words from the dictionary that could be composed of input characters (casee-insenesitive & same length). i.e., `dog` has these anagrams: God, dog, god.
+2. Run with test cases. You can custom the test case by modify test file in `src/Test` or directly input test case in terminal after running it.
 3. Dictionary file is in `src/Dictionary` folder, see https://raw.githubusercontent.com/lad/words/master/words for original file.
 
 ## How to run
