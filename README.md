@@ -10,5 +10,5 @@
 1. Clone `https://github.com/yyzhou95/word-anagrams.git` to local machine.
 2. Open a Terminal Window under code folder, and run `chmod u+x runme.sh` to make it executable.
 3. Run `./runme.sh` to run the test cases.
-4. If you want to try customized test case, modify the test file in `src/Test/test1.txt` or directly input in Terminal when promot comes up are both OK.
+4. If you want to try customized test case, modify the test file in `src/Test/test1.txt` or directly input in Terminal when promot comes up.
 5. If you want to modify dictionary, you can modify the dictionary file itseelf, or replace dictionary file in `src/Dictionary` with same name, or edit file path in `src/Entry.java`.
